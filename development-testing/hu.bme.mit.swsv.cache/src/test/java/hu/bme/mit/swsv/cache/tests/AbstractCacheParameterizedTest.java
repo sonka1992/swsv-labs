@@ -34,7 +34,9 @@ public class AbstractCacheParameterizedTest {
 	public static List paramValues() {
 		return Arrays.asList(new Object[][] {
 			  {new String[] { "apple", "pear"}, new Integer[] { 5, 6},  "apple", 5 },
-			  // TODO: Add more test cases
+			  {new String[] { "apple", "peach"}, new Integer[] { 5, 6},  "apple", 5 },
+			  {new String[] { "pear", "peach"}, new Integer[] { 5, 6},  "pear", 5 },
+			  {new String[] { "pineapple", "peach"}, new Integer[] { 5, 6},  "peach", 6 },
 		});
 	}
 	

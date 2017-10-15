@@ -105,4 +105,40 @@ public class GT4500 implements SpaceShip {
 		return firingSuccess;
 	}
 
+
+
+	/**
+	 * @return the primaryTorpedoStore
+	 */
+	TorpedoStore getPrimaryTorpedoStore() {
+		return primaryTorpedoStore;
+	}
+
+
+
+	/**
+	 * @param primaryTorpedoStore the primaryTorpedoStore to set
+	 */
+	void setPrimaryTorpedoStore(TorpedoStore primaryTorpedoStore) {
+		this.primaryTorpedoStore = primaryTorpedoStore;
+	}
+
+
+
+	/**
+	 * @return the secondaryTorpedoStore
+	 */
+	TorpedoStore getSecondaryTorpedoStore() {
+		return secondaryTorpedoStore;
+	}
+
+
+
+	/**
+	 * @param secondaryTorpedoStore the secondaryTorpedoStore to set
+	 */
+	void setSecondaryTorpedoStore(TorpedoStore secondaryTorpedoStore) {
+		this.secondaryTorpedoStore = secondaryTorpedoStore;
+	}
+
 }
